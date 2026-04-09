@@ -1,0 +1,10 @@
+# frontend
+node_modules/
+build/
+
+# backend
+target/
+*.class
+
+# env
+.env
