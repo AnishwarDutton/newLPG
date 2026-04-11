@@ -5,6 +5,6 @@ COPY . .
 
 RUN mvn clean package -DskipTests
 
-EXPOSE 8080
+EXPOSE 10000
 
-CMD ["sh", "-c", "java -jar target/*.jar --server.port=$PORT"]
+CMD ["java", "-jar", "target/lpg-management-1.0.0.jar"]
